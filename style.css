@@ -28,6 +28,9 @@ body {
 }
 
 .btn-resume {
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 15px;
   background: #238636;
   color: #fff;
 }
@@ -37,13 +40,13 @@ body {
 }
 
 .education-card {
-  background: rgba(255, 255, 255, 0.05); /* transparansi kaca */
-  border: 1px solid rgba(255, 255, 255, 0.15); /* border lembut */
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 1rem;
   padding: 1.5rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(12px); /* efek blur kaca */
-  -webkit-backdrop-filter: blur(12px); /* untuk Safari */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   height: 100%;
 }
@@ -64,8 +67,8 @@ body {
 }
 
 .tech-card {
-  background: rgba(255, 255, 255, 0.05); /* transparansi kaca */
-  border: 1px solid rgba(255, 255, 255, 0.15); /* border lembut */
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   text-align: center;
