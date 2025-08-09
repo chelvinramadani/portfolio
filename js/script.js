@@ -63,15 +63,6 @@ const projects = [
     tech: ["html", "css", "javascript"],
   },
   {
-    title: "TO DO LIST",
-    description: "To Do List sederhana untuk manajemen tugas",
-    fullDescription:
-      "Aplikasi web untuk membantu mencatat dan mengatur aktivitas harian secara efisien.",
-    image: "image/todolist.png",
-    link: "https://github.com/chelvinramadani/To-Do-List-App",
-    tech: ["html", "css", "bootstrap", "javascript"],
-  },
-  {
     title: "Simple Landing Page",
     description: "Landing page Toko Wayang Kulit",
     fullDescription:
@@ -124,6 +115,15 @@ const projects = [
     link: "https://github.com/chelvinramadani/katalog_produk",
     tech: ["bootstrap", "php", "sql"],
   },
+  {
+    title: "Animatoon",
+    description: "Aplikasi Web menonton film animasi",
+    fullDescription:
+      "Animatoon adalah sebuah aplikasi web yang memungkinkan pengguna untuk menonton berbagai film dan serial animasi populer. Aplikasi ini dirancang untuk membangkitkan rasa nostalgia serta memberikan pengalaman hiburan yang menyenangkan dan ramah anak.",
+    image: "image/animatoon.png",
+    link: "https://github.com/chelvinramadani/Animatoon",
+    tech: ["react", "javascript", "tailwind"],
+  },
 ];
 
 // Function generate icons dari tech list
@@ -141,6 +141,10 @@ function generateIcons(tools) {
     sql: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
     figma:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+    react:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+    tailwind:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
   };
 
   return tools
