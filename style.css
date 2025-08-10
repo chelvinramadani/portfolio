@@ -25,6 +25,11 @@ body {
   border-radius: 50%;
   border: 2px solid #58a6ff;
   margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out; /* animasi halus */
+}
+
+.hero img:hover {
+  transform: scale(1.1); /* membesar saat hover */
 }
 
 .btn-resume {

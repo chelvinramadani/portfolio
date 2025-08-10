@@ -1,4 +1,4 @@
-/* ==== Smooth‑scroll opsional (hilangkan jika tak perlu) ==== */
+/* ==== Smooth‑scroll ==== */
 document.querySelectorAll('.nav-link[href^="#"]').forEach((link) => {
   link.addEventListener("click", (e) => {
     const targetID = link.getAttribute("href").substring(1);
@@ -10,7 +10,7 @@ document.querySelectorAll('.nav-link[href^="#"]').forEach((link) => {
   });
 });
 
-/* ==== Highlight nav sesuai section terlihat ==== */
+/* ==== Highlight nav sesuai section ==== */
 const navLinks = document.querySelectorAll('.nav-link[href^="#"]');
 const sections = Array.from(navLinks)
   .map((link) => {
@@ -21,7 +21,7 @@ const sections = Array.from(navLinks)
 
 const observerOptions = {
   root: null,
-  rootMargin: "-70px 0px 0px 0px", // kompensasi sticky header
+  rootMargin: "-70px 0px 0px 0px",
   threshold: 0.2,
 };
 
@@ -42,7 +42,7 @@ sections.forEach((section) => observer.observe(section));
 /* ===== Type‑writer ===== */
 document.addEventListener("DOMContentLoaded", function () {
   var typed = new Typed("#dynamic-title", {
-    strings: ["Mahasiswa", "Web Developer", "Content Creator"], // ganti sesuai keinginanmu
+    strings: ["Mahasiswa", "Web Developer", "Content Creator"],
     typeSpeed: 50,
     backSpeed: 25,
     backDelay: 2000,
